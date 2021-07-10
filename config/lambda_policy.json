@@ -1,0 +1,30 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Action": [
+        "iam:CreateRole",
+        "iam:CreatePolicy",
+        "iam:AttachRolePolicy",
+        "iam:PassRole",
+        "lambda:GetFunction",
+        "lambda:ListFunctions",
+        "lambda:CreateFunction",
+        "lambda:DeleteFunction",
+        "lambda:InvokeFunction",
+        "lambda:GetFunctionConfiguration",
+        "lambda:UpdateFunctionConfiguration",
+        "lambda:UpdateFunctionCode",
+        "lambda:CreateAlias",
+        "lambda:UpdateAlias",
+        "lambda:GetAlias",
+        "lambda:ListAliases",
+        "lambda:ListVersionsByFunction",
+        "logs:FilterLogEvents",
+        "cloudwatch:GetMetricStatistics"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}

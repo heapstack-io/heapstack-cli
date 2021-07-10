@@ -1,0 +1,50 @@
+{
+  "name": "heapstack-cli",
+  "version": "1.0.0",
+  "description": "Heapstack Command Line tool",
+  "private": true,
+  "preferGlobal": true,
+  "bin": {
+    "heapstack": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/heapstack/heapstack-cli.git"
+  },
+  "keywords": [
+    "heapstack-cli",
+    "heapstack",
+    "heapstack",
+    "serverless"
+  ],
+  "author": "boskysoft",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/heapstack/heapstack-cli#readme",
+  "bugs": {
+    "url": "https://bitbucket.org/heapstack/heapstack-cli/issues"
+  },
+  "engines": {
+    "node": ">=6.9.1"
+  },
+  "dependencies": {
+    "adm-zip": "^0.4.11",
+    "aws-amplify": "^1.1.40",
+    "aws-sdk": "^2.532.0",
+    "axios": "^0.18.1",
+    "chalk": "^2.4.1",
+    "child_process": "^1.0.2",
+    "commander": "^2.19.0",
+    "date-and-time": "^0.6.3",
+    "fs": "0.0.1-security",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^6.2.0",
+    "mime-types": "^2.1.24",
+    "mkdirp": "^0.5.1",
+    "node-fetch": "^2.6.0",
+    "os": "^0.1.1"
+  }
+}
